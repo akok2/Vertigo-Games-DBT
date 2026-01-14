@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: daily_metrics
+    columns:
+      - name: event_date
+        tests:
+          - not_null
+      - name: country
+        tests:
+          - not_null
+      - name: platform
+        tests:
+          - not_null
+
