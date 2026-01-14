@@ -1,15 +1,27 @@
-Welcome to your new dbt project!
+# Vertigo Games – Data Engineer Case Study
 
-### Using the starter project
+This repository contains my solution for the **Vertigo Games Data Engineer Case Study**,
 
-Try running the following commands:
-- dbt run
-- dbt test
+**Analytics & Metrics (dbt + Looker Studio)** – an aggregated metrics model and dashboard built on top of raw gameplay data
 
+The project is designed to be clean, reproducible, and production-oriented.
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+---
+
+## Tech Stack
+
+### Backend (Part 1)
+- Python 3.12
+- FastAPI
+- PostgreSQL
+- SQLAlchemy (async)
+- Docker
+
+### Analytics (Part 2)
+- BigQuery
+- dbt (dbt-bigquery)
+- Looker Studio (Google Data Studio)
+
+---
+
+---
